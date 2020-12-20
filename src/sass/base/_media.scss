@@ -1,0 +1,169 @@
+@media (max-width: 991px) {
+        .promo {
+                .container {
+                        padding: 0 20px;
+                }
+        }
+}
+
+
+@media (max-width: 769px) {
+        .promo {
+                .container {
+                        padding: 0 20px;
+                }
+
+                &__wrapper {
+                        align-items: center;
+                }
+
+
+                &__header {
+                        font-size: 32px;
+                }
+
+                &__subheader {
+                        font-size: 18px;
+                }
+
+                .header {
+
+
+                        &__official {
+                                display: none;
+                        }
+
+                        &__phone {
+                                font-size: 17px;
+                        }
+
+
+                }
+        }
+
+        .advantages {
+                &__wrapper {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                }
+
+                &__item {
+                        margin-top: 20px;
+                }
+        }
+
+        .consultation {
+                .title {
+                        &_left {
+                                font-size: 26px;
+                                text-align: center;
+                        }
+                }
+
+                &__descr {
+                        text-align: center;
+                        font-size: 16px;
+                }
+
+                .feed-form {
+                        margin: 56px auto 0;
+                        align-items: center;
+
+                        input {
+                                display: block;
+                                width: 100%;
+                        }
+                }
+        }
+}
+
+@media (max-width: 443px) {
+
+        .promo {
+                background-position: right;
+
+                .header {
+                        flex-direction: column;
+                        align-items: flex-start;
+
+                        &__logo {
+                                display: flex;
+                                align-items: flex-start;
+
+                                img {
+                                        width: 100%;
+                                        margin: 0 auto;
+                                }
+                        }
+
+                        &__contacts {
+                                display: block;
+                                margin: 30px auto 0;
+                                align-items: center;
+
+                                a.header__phone {
+                                        display: block;
+                                        margin: 0 auto;
+                                        font-size: 17px;
+                                }
+
+                        }
+                }
+
+                &__wrapper {
+                        .promo__header {
+                                font-size: 23px;
+                        }
+
+                        .promo__subheader {
+
+                                font-size: 13px;
+                                margin-top: 5px;
+                        }
+                }
+
+                &__icons {
+                        width: 340px;
+                }
+        }
+
+
+        .advantages {
+                .advantages__wrapper {
+                        margin-top: 30px;
+                }
+
+                &__item {
+                        margin-top: 30px;
+                }
+
+                .advantages__subtitle {
+                        margin-top: 10px;
+                }
+        }
+
+        .consultation {
+                .title {
+                        &_left {
+                                font-size: 24px;
+                                text-align: center;
+                        }
+                }
+
+                .consultation__descr {
+                        text-align: center;
+                        font-size: 15px;
+                }
+
+                .feed-form {
+                        margin: 36px auto 0;
+                        align-items: center;
+
+                        input {
+                                display: block;
+                                width: 100%;
+                        }
+                }
+        }
+}
