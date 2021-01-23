@@ -35,4 +35,10 @@
             transition: all .5s ease;
         }
     }
+
+    &__icon {
+        &-animated {
+            animation: heartbeat 2s ease infinite;
+        }
+    }
 }

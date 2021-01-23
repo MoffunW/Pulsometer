@@ -1,0 +1,63 @@
+.footer {
+        min-height: 630px;
+        position: relative;
+
+        iframe {
+                width: 100%;
+                min-height: 630px;
+        }
+
+        &__info {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 460px;
+                height: 270px;
+                background: $main-color;
+                padding: 50px 68px 60px;
+        }
+
+        &__addres {
+                margin-bottom: 36px;
+                color: #ffffff;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 17px;
+        }
+
+        &__phone {
+                display: block;
+                margin-bottom: 36px;
+                color: #ffffff;
+                font-weight: 700;
+                text-align: center;
+                font-size: 20px;
+                line-height: 20px;
+
+                &:hover {
+                        color: #ddd;
+                        text-decoration: none;
+                }
+        }
+
+        &__social {
+                display: flex;
+                justify-content: center;
+
+                &-item {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 15px;
+                        width: 50px;
+                        height: 50px;
+                        border: 2px solid #ffffff;
+                        border-radius: 50%;
+
+                        img {
+                                height: 27px;
+                        }
+                }
+        }
+}

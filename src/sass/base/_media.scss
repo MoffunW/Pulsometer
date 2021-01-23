@@ -1,8 +1,43 @@
 @media (max-width: 991px) {
+
         .promo {
                 .container {
                         padding: 0 20px;
                 }
+        }
+
+        .consultation {
+                .container {
+                        padding-left: 20px;
+                }
+        }
+
+
+        .catalog {
+                &__tabs {
+                        margin-top: 40px;
+                }
+
+                &__tab {
+                        width: 180px;
+                        font-size: 17px;
+                }
+
+                &__content {
+                        justify-content: space-around;
+
+                }
+
+                &-item {
+                        margin: 0 10px 20px 10px;
+                }
+        }
+
+        .reviews {
+                &__item {
+                        padding: 0 20px;
+                }
+
         }
 }
 
@@ -36,7 +71,6 @@
                         &__phone {
                                 font-size: 17px;
                         }
-
 
                 }
         }
@@ -76,9 +110,39 @@
                         }
                 }
         }
+
+        .catalog {
+                &__tab {
+                        width: 140px;
+
+                        div {
+                                font-size: 12px;
+                                font-weight: 700;
+                        }
+                }
+
+                &__item {
+                        margin-left: 0;
+                }
+
+        }
+
+        .reviews {
+                &__img {
+                        height: 120px;
+                        width: 120px;
+                }
+
+                &__text {
+                        font-size: 14px;
+                        line-height: 14px;
+                }
+        }
 }
 
-@media (max-width: 443px) {
+
+
+@media (max-width: 491px) {
 
         .promo {
                 background-position: right;
@@ -166,4 +230,61 @@
                         }
                 }
         }
+
+        .catalog {
+                &__tab {
+                        width: 100px;
+
+                        div {
+                                font-size: 10px;
+                                font-weight: 700;
+                        }
+                }
+        }
+
+        .reviews {
+                &__img {
+                        height: 100px;
+                        width: 100px;
+                }
+
+                &__text {
+                        font-size: 11px;
+                        line-height: 13px;
+                }
+        }
+
+        .modal {
+                width: 330px;
+        }
+
+        .feed-form {
+                input {
+                        width: 255px;
+                }
+        }
+
+        .modal__close {
+                right: -30px;
+        }
+
+        .button_submit-modal {
+                width: 255px;
+        }
+}
+
+@media (max-width: 376px) {
+        .catalog {
+                &__tab {
+                        width: 80px;
+                        height: 40px;
+
+                        div {
+                                line-height: 10px;
+
+                        }
+                }
+        }
+
+
 }
